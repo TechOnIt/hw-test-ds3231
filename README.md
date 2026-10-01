@@ -16,6 +16,7 @@ The project:
 
 * ESP32 / NodeMCU ESP32
 * DS3231 RTC module
+* CR2032 3V coin cell battery
 
 ## Wiring
 
@@ -25,6 +26,8 @@ The project:
 | GND    | GND    |
 | SDA    | GPIO 4 |
 | SCL    | GPIO 5 |
+
+> **Battery:** The DS3231 module uses a standard **CR2032 3V non-rechargeable battery** as a backup power source to keep time when the main power is disconnected.
 
 ## Dependencies
 
